@@ -33,6 +33,7 @@
 </dependencies>
   <build>
     <finalName>cloudAssignment</finalName>
+  <plugins>
   <plugin>
       <artifactId>maven-assembly-plugin</artifactId>
       <configuration>
@@ -55,5 +56,6 @@
         </execution>
       </executions>
     </plugin>
+	</plugins>
 </build>
 </project>
